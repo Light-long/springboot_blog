@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="UTF-8">
-    <title>error</title>
-</head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragment :: head('500')"></head>
 <body>
-    <h2 style="color: red">error</h2>
 
-    <!--不会打印在网页上，只有查看源代码时可以看到错误信息-->
-    <div>
-        <div th:utext="'&lt;!--'" th:remove="tag"></div>
-        <div th:utext="'Failed Request URL : ' + ${url}" th:remove="tag">
-        </div>
-        <div th:utext="'Exception message : ' + ${exception.message}"
-             th:remove="tag"></div>
-        <ul th:remove="tag">
-            <li th:each="st : ${exception.stackTrace}" th:remove="tag"><span
-                    th:utext="${st}" th:remove="tag"></span></li>
-        </ul>
-        <div th:utext="'--&gt;'" th:remove="tag"></div>
+<!--导航-->
+<nav th:replace="_fragment :: nav(0)" ></nav>
+<br>
+<br>
+<br>
+
+<div class="m-container-small m-padded-tb-massive">
+  <div class="ui error message m-padded-tb-huge" >
+    <div class="ui contianer">
+      <h2>500</h2>
+      <p>对不起，服务器异常，请联系管理员</p>
     </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<footer th:replace="_fragment :: footer"></footer>
 </body>
 </html>

@@ -62,3 +62,2042 @@
 2020-04-16 09:42:51.961  INFO 3556 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/1/lishilong', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[1, lishilong]}
 2020-04-16 09:42:51.963  INFO 3556 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
 2020-04-16 09:42:51.963  INFO 3556 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:05:09.059  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 11288 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:05:09.063  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:05:09.106  INFO 11288 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 10:05:09.107  INFO 11288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 10:05:09.107  INFO 11288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 10:05:09.641  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:05:09.663  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2020-04-16 10:05:10.297  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:05:10.305  INFO 11288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:05:10.305  INFO 11288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:05:10.398  INFO 11288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:05:10.398  INFO 11288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1290 ms
+2020-04-16 10:05:10.628  INFO 11288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:05:10.681  INFO 11288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:05:10.771  INFO 11288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:05:10.846  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 10:05:10.940  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 10:05:10.953  INFO 11288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:05:11.109  INFO 11288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:05:11.115  INFO 11288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:05:11.165  INFO 11288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:05:11.252  WARN 11288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:05:11.476  INFO 11288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:05:11.569  INFO 11288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:05:11.802  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:05:11.804  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 3.426 seconds (JVM running for 4.917)
+2020-04-16 10:05:25.213  INFO 11288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:05:25.213  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:05:25.223  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-16 10:05:25.400 ERROR 11288 --- [http-nio-8080-exec-1] c.t.handler.ControllerExceptionHandler   : Request URL : http://localhost:8080/, Exception {}
+
+org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer
+	at org.springframework.web.servlet.mvc.method.annotation.PathVariableMethodArgumentResolver.handleMissingValue(PathVariableMethodArgumentResolver.java:101)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleMissingValue(AbstractNamedValueMethodArgumentResolver.java:221)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-16 10:05:25.403  WARN 11288 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'id' for method parameter of type Integer]
+2020-04-16 10:05:59.298  INFO 11288 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:05:59.298  INFO 11288 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:05:59.302  INFO 11288 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-16 10:05:59.307  INFO 11288 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-16 10:06:00.746  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 11288 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:06:00.746  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:06:00.960  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:06:00.962  INFO 11288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+2020-04-16 10:06:01.125  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:06:01.126  INFO 11288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:06:01.126  INFO 11288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:06:01.149  INFO 11288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:06:01.149  INFO 11288 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 399 ms
+2020-04-16 10:06:01.214  INFO 11288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:06:01.217  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-16 10:06:01.222  INFO 11288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-16 10:06:01.222  INFO 11288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:06:01.234  INFO 11288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:06:01.234  INFO 11288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:06:01.263  INFO 11288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:06:01.304  WARN 11288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:06:01.441  INFO 11288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:06:01.474  INFO 11288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:06:01.626  INFO 11288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:06:01.626  INFO 11288 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 0.943 seconds (JVM running for 54.739)
+2020-04-16 10:06:01.628  INFO 11288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 10:06:01.745  INFO 11288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:06:01.746  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:06:01.762  INFO 11288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-04-16 10:06:01.774  INFO 11288 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:06:01.777  INFO 11288 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:06:01.778  INFO 11288 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:11:51.808  INFO 11288 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:11:51.808  INFO 11288 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:11:51.808  INFO 11288 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:11:54.310  INFO 11288 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:11:54.311  INFO 11288 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:11:54.311  INFO 11288 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:12:40.358  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13180 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:12:40.362  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:12:40.422  INFO 13180 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 10:12:40.423  INFO 13180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 10:12:40.423  INFO 13180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 10:12:40.940  INFO 13180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:12:40.957  INFO 13180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-04-16 10:12:41.567  INFO 13180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:12:41.574  INFO 13180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:12:41.574  INFO 13180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:12:41.658  INFO 13180 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:12:41.659  INFO 13180 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1235 ms
+2020-04-16 10:12:41.852  INFO 13180 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:12:41.903  INFO 13180 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:12:41.990  INFO 13180 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:12:42.063  INFO 13180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 10:12:42.165  INFO 13180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 10:12:42.178  INFO 13180 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:12:42.351  INFO 13180 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:12:42.357  INFO 13180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:12:42.408  INFO 13180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:12:42.495  WARN 13180 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:12:42.751  INFO 13180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:12:42.844  INFO 13180 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:12:43.105  INFO 13180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:12:43.107  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 3.471 seconds (JVM running for 5.274)
+2020-04-16 10:12:46.061  INFO 13180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:12:46.061  INFO 13180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:12:46.068  INFO 13180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-16 10:12:46.127  INFO 13180 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:12:46.131  INFO 13180 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:12:46.131  INFO 13180 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:14:10.665  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:14:10.666  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:14:10.666  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:15:17.016  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:15:17.017  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:15:17.018  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:16:50.397  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:16:50.399  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:16:50.400  INFO 13180 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:18:38.833  INFO 13180 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:18:38.834  INFO 13180 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:18:38.834  INFO 13180 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:21:06.163  INFO 13180 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:21:06.163  INFO 13180 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:21:06.163  INFO 13180 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:24:53.513  INFO 13180 --- [http-nio-8080-exec-4] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:24:53.514  INFO 13180 --- [http-nio-8080-exec-4] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:24:53.514  INFO 13180 --- [http-nio-8080-exec-4] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:25:09.344  INFO 13180 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:25:09.344  INFO 13180 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:25:09.345  INFO 13180 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:25:09.351 ERROR 13180 --- [http-nio-8080-exec-8] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-8] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 8, col 3)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 8, col 3)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: (Line = 8, Column = 3) Incomplete structure: "<link rel="stylesheet" href="../static/css/me.css" th:href="@{../static/css/me.css}" ">
+</head>
+<body>
+
+  <!--导航-->
+  <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+    <div class="ui container">
+      <div class="ui inverted secondary stackable menu">
+        <h2 class="ui teal header item">Blog</h2>
+        <a href="#" class="active m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+        <div class="right m-item item m-mobile-hide">
+          <div class="ui icon inverted transparent input m-margin-tb-tiny">
+            <input type="text" placeholder="Search....">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+      <i class="sidebar icon"></i>
+    </a>
+  </nav>
+
+  <!--中间内容-->
+  <div  class="m-container m-padded-tb-big">
+    <div class="ui container">
+      <div class="ui stackable grid">
+        <!--左边博客列表-->
+        <div class="eleven wide column">
+          <!--header-->
+          <div class="ui top attached segment">
+            <div class="ui middle aligned two column grid">
+              <div class="column">
+                <h3 class="ui teal header">博客</h3>
+              </div>
+              <div class="right aligned column">
+                共 <h2 class="ui orange header m-inline-block m-text-thin"> 14 </h2> 篇
+              </div>
+            </div>
+          </div>
+
+          <!--content-->
+          <div class="ui attached  segment">
+
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <!--footer-->
+          <div class="ui bottom attached segment">
+            <div class="ui middle aligned two column grid">
+              <div class="column">
+                <a href="#" class="ui mini teal basic button">上一页</a>
+              </div>
+              <div class="right aligned column">
+                <a href="#" class="ui mini teal basic button">下一页</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--右边的top-->
+        <div class="five wide column">
+
+          <!--分类-->
+          <div class="ui segments">
+            <div class="ui secondary segment">
+              <div class="ui two column grid">
+                <div class="column">
+                  <i class="idea icon"></i>分类
+                </div>
+                <div class="right aligned column">
+                  <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="ui teal segment">
+              <div class="ui fluid vertical menu">
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  思考与感悟
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--标签-->
+          <div class="ui segments m-margin-top-large">
+            <div class="ui secondary segment">
+              <div class="ui two column grid">
+                <div class="column">
+                  <i class="tags icon"></i>标签
+                </div>
+                <div class="right aligned column">
+                  <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="ui teal segment">
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+            </div>
+          </div>
+
+          <!--最新推荐-->
+          <div class="ui segments m-margin-top-large">
+            <div class="ui secondary segment ">
+              <i class="bookmark icon"></i>最新推荐
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment" >
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+          </div>
+
+          <!--二维码-->
+          <h4 class="ui horizontal divider header m-margin-top-large">扫码关注我</h4>
+          <div class="ui centered card" style="width: 11em">
+            <img src="../static/images/wechat.png" th:src="@{../static/images/wechat.png}" alt="" class="ui rounded image" >
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <!--底部footer-->
+  <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+      <div class="ui inverted divided stackable grid">
+        <div class="three wide column">
+          <div class="ui inverted link list">
+            <div class="item">
+              <img src="../static/images/wechat.png" th:src="@{../static/images/wechat.png}" class="ui rounded image" alt="" style="width: 110px">
+            </div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item m-text-thin">Email：lishilong1108@foxmail.com</a>
+            <a href="#" class="item m-text-thin">QQ：2201673330</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
+          <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2019 - 2020 Designed by Li Shilong</p>
+    </div>
+
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+  <script>
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+  </script>
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2020-04-16 10:25:09.358 ERROR 13180 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 8, col 3)] with root cause
+
+org.attoparser.ParseException: (Line = 8, Column = 3) Incomplete structure: "<link rel="stylesheet" href="../static/css/me.css" th:href="@{../static/css/me.css}" ">
+</head>
+<body>
+
+  <!--导航-->
+  <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+    <div class="ui container">
+      <div class="ui inverted secondary stackable menu">
+        <h2 class="ui teal header item">Blog</h2>
+        <a href="#" class="active m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+        <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+        <div class="right m-item item m-mobile-hide">
+          <div class="ui icon inverted transparent input m-margin-tb-tiny">
+            <input type="text" placeholder="Search....">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+      <i class="sidebar icon"></i>
+    </a>
+  </nav>
+
+  <!--中间内容-->
+  <div  class="m-container m-padded-tb-big">
+    <div class="ui container">
+      <div class="ui stackable grid">
+        <!--左边博客列表-->
+        <div class="eleven wide column">
+          <!--header-->
+          <div class="ui top attached segment">
+            <div class="ui middle aligned two column grid">
+              <div class="column">
+                <h3 class="ui teal header">博客</h3>
+              </div>
+              <div class="right aligned column">
+                共 <h2 class="ui orange header m-inline-block m-text-thin"> 14 </h2> 篇
+              </div>
+            </div>
+          </div>
+
+          <!--content-->
+          <div class="ui attached  segment">
+
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="ui padded vertical segment m-padded-tb-large">
+              <div class="ui mobile reversed stackable grid">
+                <div class="eleven wide column">
+                  <h3 class="ui header">你真的理解什么是财富自由吗？</h3>
+                  <p class="m-text">正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已…...</p>
+                  <div class="ui grid">
+                    <div class="eleven wide column">
+                      <div class="ui mini horizontal link list">
+                        <div class="item">
+                          <img src="https://unsplash.it/100/100?image=1005" alt="" class="ui avatar image">
+                          <div class="content"><a href="#" class="header">李世龙</a></div>
+                        </div>
+                        <div class="item">
+                          <i class="calendar icon"></i> 2020-04-11
+                        </div>
+                        <div class="item">
+                          <i class="eye icon"></i> 2342
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right aligned five wide column">
+                      <a href="#" target="_blank" class="ui teal basic label m-padded-tiny m-text-thin">认知升级</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="five wide column">
+                  <a href="#" target="_blank">
+                    <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui rounded image">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <!--footer-->
+          <div class="ui bottom attached segment">
+            <div class="ui middle aligned two column grid">
+              <div class="column">
+                <a href="#" class="ui mini teal basic button">上一页</a>
+              </div>
+              <div class="right aligned column">
+                <a href="#" class="ui mini teal basic button">下一页</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--右边的top-->
+        <div class="five wide column">
+
+          <!--分类-->
+          <div class="ui segments">
+            <div class="ui secondary segment">
+              <div class="ui two column grid">
+                <div class="column">
+                  <i class="idea icon"></i>分类
+                </div>
+                <div class="right aligned column">
+                  <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="ui teal segment">
+              <div class="ui fluid vertical menu">
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  思考与感悟
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+                <a href="#" class="item">
+                  学习日志
+                  <div class="ui teal basic left pointing label">13</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--标签-->
+          <div class="ui segments m-margin-top-large">
+            <div class="ui secondary segment">
+              <div class="ui two column grid">
+                <div class="column">
+                  <i class="tags icon"></i>标签
+                </div>
+                <div class="right aligned column">
+                  <a href="#" target="_blank">more <i class="angle double right icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="ui teal segment">
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+              <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                方法论 <div class="detail">23</div>
+              </a>
+            </div>
+          </div>
+
+          <!--最新推荐-->
+          <div class="ui segments m-margin-top-large">
+            <div class="ui secondary segment ">
+              <i class="bookmark icon"></i>最新推荐
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment" >
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+            <div class="ui segment">
+              <a href="#" target="_blank" class="m-black m-text-thin">用户故事（User Story）</a>
+            </div>
+          </div>
+
+          <!--二维码-->
+          <h4 class="ui horizontal divider header m-margin-top-large">扫码关注我</h4>
+          <div class="ui centered card" style="width: 11em">
+            <img src="../static/images/wechat.png" th:src="@{../static/images/wechat.png}" alt="" class="ui rounded image" >
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <!--底部footer-->
+  <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+      <div class="ui inverted divided stackable grid">
+        <div class="three wide column">
+          <div class="ui inverted link list">
+            <div class="item">
+              <img src="../static/images/wechat.png" th:src="@{../static/images/wechat.png}" class="ui rounded image" alt="" style="width: 110px">
+            </div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+            <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item m-text-thin">Email：lishilong1108@foxmail.com</a>
+            <a href="#" class="item m-text-thin">QQ：2201673330</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">Blog</h4>
+          <p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2019 - 2020 Designed by Li Shilong</p>
+    </div>
+
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+  <script>
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+  </script>
+</body>
+</html>"
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:366)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-16 10:26:23.575  INFO 13180 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:26:23.577  INFO 13180 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:26:23.577  INFO 13180 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:29:42.383  INFO 13180 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:29:42.384  INFO 13180 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:29:42.384  INFO 13180 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:31:30.301  INFO 13180 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:31:30.301  INFO 13180 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:31:30.305  INFO 13180 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-16 10:31:30.310  INFO 13180 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-16 10:31:31.375  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13180 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:31:31.375  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:31:31.557  INFO 13180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:31:31.560  INFO 13180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-04-16 10:31:31.718  INFO 13180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:31:31.719  INFO 13180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:31:31.719  INFO 13180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:31:31.736  INFO 13180 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:31:31.736  INFO 13180 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 357 ms
+2020-04-16 10:31:31.794  INFO 13180 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:31:31.797  INFO 13180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-16 10:31:31.802  INFO 13180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-16 10:31:31.803  INFO 13180 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:31:31.814  INFO 13180 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:31:31.814  INFO 13180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:31:31.846  INFO 13180 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:31:31.890  WARN 13180 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:31:32.035  INFO 13180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:31:32.079  INFO 13180 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:31:32.356  INFO 13180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:31:32.356  INFO 13180 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.022 seconds (JVM running for 1134.523)
+2020-04-16 10:31:32.359  INFO 13180 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 10:31:40.266  INFO 13180 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:31:40.267  INFO 13180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:31:40.282  INFO 13180 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-04-16 10:31:40.292  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:31:40.296  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:31:40.296  INFO 13180 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:35:20.049  INFO 1868 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 1868 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:35:20.053  INFO 1868 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:35:20.101  INFO 1868 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 10:35:20.101  INFO 1868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 10:35:20.101  INFO 1868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 10:35:20.633  INFO 1868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:35:20.651  INFO 1868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-04-16 10:35:21.272  INFO 1868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:35:21.279  INFO 1868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:35:21.279  INFO 1868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:35:21.368  INFO 1868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:35:21.369  INFO 1868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1267 ms
+2020-04-16 10:35:21.572  INFO 1868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:35:21.622  INFO 1868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:35:21.710  INFO 1868 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:35:21.784  INFO 1868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 10:35:21.877  INFO 1868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 10:35:21.892  INFO 1868 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:35:22.054  INFO 1868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:35:22.060  INFO 1868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:35:22.110  INFO 1868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:35:22.189  WARN 1868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:35:22.414  INFO 1868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:35:22.732  INFO 1868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:35:22.735  INFO 1868 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 3.319 seconds (JVM running for 4.896)
+2020-04-16 10:35:28.234  INFO 1868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:35:28.235  INFO 1868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:35:28.243  INFO 1868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-16 10:35:28.301  INFO 1868 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:35:28.305  INFO 1868 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:35:28.306  INFO 1868 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:35:28.399 ERROR 1868 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-16 10:35:28.402 ERROR 1868 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-16 10:43:34.380  INFO 12092 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 12092 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:43:34.384  INFO 12092 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:43:34.430  INFO 12092 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 10:43:34.431  INFO 12092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 10:43:34.431  INFO 12092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 10:43:35.314  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:43:35.365  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 JPA repository interfaces.
+2020-04-16 10:43:37.321  INFO 12092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:43:37.360  INFO 12092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:43:37.361  INFO 12092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:43:37.618  INFO 12092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:43:37.619  INFO 12092 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3188 ms
+2020-04-16 10:43:38.130  INFO 12092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:43:38.244  INFO 12092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:43:38.464  INFO 12092 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:43:38.590  INFO 12092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 10:43:38.775  INFO 12092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 10:43:38.797  INFO 12092 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:43:39.080  INFO 12092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:43:39.089  INFO 12092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:43:39.200  INFO 12092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:43:39.341  WARN 12092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:43:39.651  INFO 12092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:43:39.788  INFO 12092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:43:40.205  INFO 12092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:43:40.209  INFO 12092 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 6.493 seconds (JVM running for 8.317)
+2020-04-16 10:43:50.800  INFO 12092 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:43:50.800  INFO 12092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:43:50.810  INFO 12092 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-16 10:43:50.872  INFO 12092 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:43:50.876  INFO 12092 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:43:50.876  INFO 12092 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:44:40.231  INFO 12092 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:44:40.231  INFO 12092 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:44:40.231  INFO 12092 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:48:19.475  INFO 12092 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:48:19.476  INFO 12092 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:48:19.476  INFO 12092 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:48:19.489 ERROR 12092 --- [http-nio-8080-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-6] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]" - line 2, col 56)
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 2, col 56)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: (Line = 2, Column = 56) Malformed markup: Attribute "xmlns:th" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+
+2020-04-16 10:48:19.493 ERROR 12092 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]" - line 2, col 56)] with root cause
+
+org.attoparser.ParseException: (Line = 2, Column = 56) Malformed markup: Attribute "xmlns:th" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-04-16 10:49:03.568  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 972 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 10:49:03.570  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 10:49:03.609  INFO 972 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 10:49:03.609  INFO 972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 10:49:03.609  INFO 972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 10:49:04.093  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 10:49:04.110  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-04-16 10:49:04.715  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 10:49:04.723  INFO 972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 10:49:04.723  INFO 972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 10:49:04.806  INFO 972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 10:49:04.806  INFO 972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1197 ms
+2020-04-16 10:49:05.000  INFO 972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 10:49:05.053  INFO 972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 10:49:05.137  INFO 972 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 10:49:05.209  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 10:49:05.300  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 10:49:05.313  INFO 972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 10:49:05.472  INFO 972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 10:49:05.478  INFO 972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 10:49:05.527  INFO 972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 10:49:05.601  WARN 972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 10:49:05.805  INFO 972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 10:49:05.880  INFO 972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 10:49:06.154  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 10:49:06.156  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 3.137 seconds (JVM running for 4.829)
+2020-04-16 10:49:11.076  INFO 972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 10:49:11.076  INFO 972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 10:49:11.085  INFO 972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-16 10:49:11.143  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:49:11.147  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:49:11.147  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:50:22.038  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:50:22.039  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:50:22.039  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:51:09.030  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:51:09.030  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:51:09.030  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 10:52:16.027  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 10:52:16.029  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 10:52:16.029  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:04:08.705  INFO 972 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:04:08.705  INFO 972 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:04:08.705  INFO 972 --- [http-nio-8080-exec-3] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:08:27.572  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:08:27.573  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:08:27.573  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:08:43.990  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:08:43.991  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:08:43.991  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:09:05.905  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:09:05.905  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:09:05.905  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:09:26.421  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:09:26.421  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:09:26.421  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:10:28.374  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:10:28.374  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:10:28.374  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:10:33.138  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:10:33.138  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:10:33.138  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:10:42.739  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:10:42.739  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:10:42.739  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:17:33.516  INFO 972 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:17:33.517  INFO 972 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:17:33.517  INFO 972 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:17:42.794  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:17:42.795  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:17:42.795  INFO 972 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:17:50.671  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:17:50.671  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:17:50.671  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:19:41.095  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:19:41.096  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:19:41.097  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:19:54.864  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:19:54.865  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:19:54.865  INFO 972 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:22:43.357  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:22:43.357  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:22:43.357  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:24:00.012  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:24:00.012  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:24:00.013  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:41:41.272  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:41:41.274  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:41:41.275  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 11:42:24.117  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 11:42:24.117  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 11:42:24.117  INFO 972 --- [http-nio-8080-exec-8] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 12:10:36.840  WARN 972 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m31s265ms235µs900ns).
+2020-04-16 12:19:14.909  INFO 972 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:19:14.911  INFO 972 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:19:14.921  INFO 972 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-16 12:19:14.925  INFO 972 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-16 12:19:16.023  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 972 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 12:19:16.024  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 12:19:16.210  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 12:19:16.213  INFO 972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-04-16 12:19:16.465  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 12:19:16.466  INFO 972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 12:19:16.466  INFO 972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 12:19:16.488  INFO 972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 12:19:16.489  INFO 972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 462 ms
+2020-04-16 12:19:16.580  INFO 972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 12:19:16.584  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-16 12:19:16.589  INFO 972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-16 12:19:16.589  INFO 972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 12:19:16.603  INFO 972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 12:19:16.603  INFO 972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:19:16.637  INFO 972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 12:19:16.695  WARN 972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 12:19:16.873  INFO 972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:19:16.922  INFO 972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 12:19:17.243  INFO 972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 12:19:17.244  INFO 972 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.262 seconds (JVM running for 5415.926)
+2020-04-16 12:19:17.247  INFO 972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 12:19:22.229  INFO 972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 12:19:22.230  INFO 972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 12:19:22.244  INFO 972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-16 12:19:22.250  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 12:19:22.255  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:19:22.256  INFO 972 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 12:19:28.384  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.blog', args=[]}
+2020-04-16 12:19:28.384  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:19:28.385  INFO 972 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : Result: blog
+2020-04-16 12:24:26.782  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.blog', args=[]}
+2020-04-16 12:24:26.783  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:24:26.783  INFO 972 --- [http-nio-8080-exec-2] com.tencent.aspect.LogAspect             : Result: blog
+2020-04-16 12:25:57.372  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.blog', args=[]}
+2020-04-16 12:25:57.373  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:25:57.373  INFO 972 --- [http-nio-8080-exec-10] com.tencent.aspect.LogAspect             : Result: blog
+2020-04-16 12:27:21.966  INFO 972 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:27:21.967  INFO 972 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:27:21.967  INFO 972 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-16 12:27:21.971  INFO 972 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-16 12:29:45.968  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 2324 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 12:29:45.971  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 12:29:46.003  INFO 2324 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 12:29:46.004  INFO 2324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 12:29:46.004  INFO 2324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 12:29:46.470  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 12:29:46.486  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-04-16 12:29:47.097  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 12:29:47.104  INFO 2324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 12:29:47.104  INFO 2324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 12:29:47.186  INFO 2324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 12:29:47.186  INFO 2324 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1181 ms
+2020-04-16 12:29:47.378  INFO 2324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 12:29:47.428  INFO 2324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 12:29:47.515  INFO 2324 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 12:29:47.586  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 12:29:47.676  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 12:29:47.689  INFO 2324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 12:29:47.866  INFO 2324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 12:29:47.873  INFO 2324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:29:47.927  INFO 2324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 12:29:48.024  WARN 2324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 12:29:48.278  INFO 2324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:29:48.354  INFO 2324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 12:29:48.633  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 12:29:48.635  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 3.27 seconds (JVM running for 6.206)
+2020-04-16 12:30:00.846  INFO 2324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 12:30:00.847  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 12:30:00.855  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-16 12:30:00.918  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 12:30:00.921  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:30:00.921  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 12:30:21.520  INFO 2324 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.blog', args=[]}
+2020-04-16 12:30:21.520  INFO 2324 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:30:21.520  INFO 2324 --- [http-nio-8080-exec-6] com.tencent.aspect.LogAspect             : Result: blog
+2020-04-16 12:49:04.306  INFO 2324 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:49:04.310  INFO 2324 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:49:04.322  INFO 2324 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-16 12:49:04.332  INFO 2324 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-16 12:49:05.679  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 2324 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 12:49:05.681  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 12:49:05.993  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 12:49:05.998  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-04-16 12:49:06.250  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 12:49:06.251  INFO 2324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 12:49:06.251  INFO 2324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 12:49:06.270  INFO 2324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 12:49:06.271  INFO 2324 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 586 ms
+2020-04-16 12:49:06.324  INFO 2324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 12:49:06.327  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-16 12:49:06.337  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-16 12:49:06.338  INFO 2324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 12:49:06.349  INFO 2324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 12:49:06.349  INFO 2324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:49:06.378  INFO 2324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 12:49:06.419  WARN 2324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 12:49:06.570  INFO 2324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:49:06.605  INFO 2324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 12:49:06.784  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 12:49:06.784  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.17 seconds (JVM running for 1164.355)
+2020-04-16 12:49:06.786  INFO 2324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 12:49:18.204  INFO 2324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 12:49:18.207  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 12:49:18.223  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-04-16 12:49:18.230  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.adminblogs', args=[]}
+2020-04-16 12:49:18.238  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:49:18.238  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: admin/blogs
+2020-04-16 12:52:52.197  INFO 2324 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.adminblogs', args=[]}
+2020-04-16 12:52:52.197  INFO 2324 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:52:52.197  INFO 2324 --- [http-nio-8080-exec-7] com.tencent.aspect.LogAspect             : Result: admin/blogs
+2020-04-16 12:53:26.938  INFO 2324 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:53:26.939  INFO 2324 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:53:26.940  INFO 2324 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-16 12:53:26.946  INFO 2324 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-16 12:53:28.206  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 2324 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 12:53:28.207  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 12:53:28.472  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 12:53:28.474  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-04-16 12:53:28.676  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 12:53:28.677  INFO 2324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 12:53:28.677  INFO 2324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 12:53:28.697  INFO 2324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 12:53:28.697  INFO 2324 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 487 ms
+2020-04-16 12:53:28.751  INFO 2324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 12:53:28.755  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-16 12:53:28.763  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-16 12:53:28.764  INFO 2324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 12:53:28.776  INFO 2324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 12:53:28.776  INFO 2324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 12:53:28.808  INFO 2324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 12:53:28.854  WARN 2324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 12:53:28.996  INFO 2324 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 12:53:29.048  INFO 2324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 12:53:29.265  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 12:53:29.266  INFO 2324 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.133 seconds (JVM running for 1426.837)
+2020-04-16 12:53:29.267  INFO 2324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 12:53:31.672  INFO 2324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 12:53:31.673  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 12:53:31.690  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-04-16 12:53:46.702  INFO 2324 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.adminblogs', args=[]}
+2020-04-16 12:53:46.709  INFO 2324 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:53:46.710  INFO 2324 --- [http-nio-8080-exec-9] com.tencent.aspect.LogAspect             : Result: admin/blogs-input
+2020-04-16 12:55:35.497  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/admin/blogs', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.adminblogs', args=[]}
+2020-04-16 12:55:35.498  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 12:55:35.498  INFO 2324 --- [http-nio-8080-exec-1] com.tencent.aspect.LogAspect             : Result: admin/blogs-input

@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class IndexController {
 
-    @GetMapping("/{id}/{name}")
-    public String index(@PathVariable("id") Integer id,@PathVariable("name") String name) {
+    @GetMapping("/")
+    public String index() {
 
 //        测试异常
 //        String blog = null;
@@ -19,8 +19,16 @@ public class IndexController {
 //        }
 //        return "index";
 //    }
-        System.out.println("--------index------");
-        System.out.println(id+":"+name);
         return "index";
+    }
+
+    @GetMapping("/blog")
+    public String blog() {
+        return "blog";
+    }
+
+    @GetMapping("/admin/blogs")
+    public String adminblogs() {
+        return "admin/blogs-input";
     }
 }
