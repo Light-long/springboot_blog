@@ -2583,3 +2583,359 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{_f
 2020-04-16 16:43:05.260  INFO 3236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-16 16:43:05.261  INFO 3236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-16 16:43:05.272  INFO 3236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-16 17:11:15.878  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 17:11:15.881  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 17:11:15.922  INFO 13348 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in E:\maven_repository2\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/E:/maven_repository2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-04-16 17:11:15.922  INFO 13348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-16 17:11:15.923  INFO 13348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-16 17:11:16.650  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 17:11:16.735  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+2020-04-16 17:11:17.537  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 17:11:17.547  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 17:11:17.548  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 17:11:17.697  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 17:11:17.697  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1774 ms
+2020-04-16 17:11:18.069  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 17:11:18.255  INFO 13348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-16 17:11:18.570  INFO 13348 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-16 17:11:18.720  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-16 17:11:18.900  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-16 17:11:18.920  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 17:11:19.889  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 17:11:19.895  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:11:19.962  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 17:11:20.423  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 17:11:20.635  INFO 13348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 17:11:20.740  INFO 13348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 17:11:21.115  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 17:11:21.117  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 6.181 seconds (JVM running for 8.527)
+2020-04-16 17:11:29.089  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 17:11:29.090  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 17:11:29.099  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-04-16 17:34:15.386  INFO 13348 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 17:34:15.387  INFO 13348 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:34:15.394  INFO 13348 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-04-16 17:34:15.405  INFO 13348 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-04-16 17:34:16.854  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 17:34:16.855  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 17:34:17.087  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 17:34:17.101  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+2020-04-16 17:34:17.337  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 17:34:17.338  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 17:34:17.339  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 17:34:17.364  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 17:34:17.364  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 503 ms
+2020-04-16 17:34:17.431  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 17:34:17.434  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-04-16 17:34:17.440  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-04-16 17:34:17.440  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 17:34:17.612  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 17:34:17.613  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:34:17.654  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 17:34:17.891  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 17:34:18.276  INFO 13348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 17:34:18.449  INFO 13348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 17:34:19.022  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 17:34:19.023  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 2.227 seconds (JVM running for 1386.433)
+2020-04-16 17:34:19.027  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 17:34:28.247  INFO 13348 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 17:34:28.249  INFO 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 17:34:28.267  INFO 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-04-16 17:46:59.750  INFO 13348 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-16 17:46:59.750  INFO 13348 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:46:59.751  INFO 13348 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-04-16 17:46:59.757  INFO 13348 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-04-16 17:47:01.010  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 17:47:01.010  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 17:47:01.305  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 17:47:01.318  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 1 JPA repository interfaces.
+2020-04-16 17:47:01.554  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 17:47:01.555  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 17:47:01.555  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 17:47:01.653  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 17:47:01.654  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 638 ms
+2020-04-16 17:47:01.709  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 17:47:01.714  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-04-16 17:47:01.719  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-04-16 17:47:01.719  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 17:47:01.835  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 17:47:01.836  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:47:01.869  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 17:47:02.282  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 17:47:02.544  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 17:47:02.544  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.579 seconds (JVM running for 2149.954)
+2020-04-16 17:47:02.642  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' webMvcConfig (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-04-16 17:47:16.846  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 17:47:16.847  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 17:47:16.866  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2020-04-16 17:47:16.996  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:47:29.240  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:47:34.942  WARN 13348 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:47:34.954  WARN 13348 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /images/wechat.png
+2020-04-16 17:48:39.950  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:50:13.419  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:51:38.951  WARN 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:51:41.219  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:51:43.759  INFO 13348 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : RequestLog {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.tencent.web.IndexController.index', args=[]}
+2020-04-16 17:51:43.764  INFO 13348 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : -------doAfter-------
+2020-04-16 17:51:43.764  INFO 13348 --- [http-nio-8080-exec-5] com.tencent.aspect.LogAspect             : Result: index
+2020-04-16 17:51:43.819  WARN 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/typo.css
+2020-04-16 17:51:43.827  WARN 13348 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /css/animate.css
+2020-04-16 17:51:43.828  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/prism/prism.css
+2020-04-16 17:51:43.828  WARN 13348 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/tocbot/tocbot.css
+2020-04-16 17:51:43.829  WARN 13348 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:51:43.847  WARN 13348 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /images/wechat.png
+2020-04-16 17:51:48.323  WARN 13348 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:58:47.073  INFO 13348 --- [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:58:47.074  INFO 13348 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-04-16 17:58:47.078  INFO 13348 --- [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-04-16 17:58:48.259  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 17:58:48.259  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 17:58:48.391  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 17:58:48.400  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 1 JPA repository interfaces.
+2020-04-16 17:58:48.562  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 17:58:48.563  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 17:58:48.564  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 17:58:48.641  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 17:58:48.641  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 380 ms
+2020-04-16 17:58:48.717  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 17:58:48.723  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-04-16 17:58:48.728  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-04-16 17:58:48.728  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 17:58:48.900  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 17:58:48.900  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 17:58:48.942  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 17:58:49.311  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 17:58:49.762  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 17:58:49.763  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.533 seconds (JVM running for 2857.173)
+2020-04-16 17:58:49.765  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 17:58:55.099  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 17:58:55.100  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 17:58:55.113  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-04-16 17:58:55.177  WARN 13348 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:58:58.728  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 17:59:38.134  WARN 13348 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:00:56.536  INFO 13348 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:00:56.537  INFO 13348 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-04-16 18:00:56.541  INFO 13348 --- [Thread-34] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-04-16 18:00:57.680  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 18:00:57.681  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 18:00:57.813  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 18:00:57.822  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+2020-04-16 18:00:58.076  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 18:00:58.078  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 18:00:58.078  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 18:00:58.111  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 18:00:58.111  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 429 ms
+2020-04-16 18:00:58.205  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 18:00:58.212  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-04-16 18:00:58.218  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-04-16 18:00:58.219  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 18:00:58.397  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 18:00:58.398  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:00:58.449  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 18:00:58.806  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 18:00:59.068  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 18:00:59.068  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.418 seconds (JVM running for 2986.478)
+2020-04-16 18:00:59.069  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 18:01:04.309  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 18:01:04.310  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 18:01:04.317  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-16 18:01:04.376  WARN 13348 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:01:22.338  WARN 13348 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:02:40.109  INFO 13348 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:02:40.111  INFO 13348 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-04-16 18:02:40.118  INFO 13348 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-04-16 18:02:41.586  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 18:02:41.586  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 18:02:41.726  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 18:02:41.735  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+2020-04-16 18:02:41.934  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 18:02:41.935  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 18:02:41.935  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 18:02:41.959  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 18:02:41.959  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 371 ms
+2020-04-16 18:02:42.031  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 18:02:42.034  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-04-16 18:02:42.038  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-04-16 18:02:42.038  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 18:02:42.134  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 18:02:42.134  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:02:42.183  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 18:02:42.488  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 18:02:42.752  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 18:02:42.753  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.203 seconds (JVM running for 3090.163)
+2020-04-16 18:02:42.754  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 18:02:52.251  INFO 13348 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 18:02:52.254  INFO 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 18:02:52.265  INFO 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-16 18:02:52.316  WARN 13348 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:03:38.445  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:03:38.456  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /images/wechat.png
+2020-04-16 18:04:05.726  WARN 13348 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:05:45.640  WARN 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:05:45.715  WARN 13348 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /css/typo.css
+2020-04-16 18:05:45.715  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/prism/prism.css
+2020-04-16 18:05:45.715  WARN 13348 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /css/animate.css
+2020-04-16 18:05:45.720  WARN 13348 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/tocbot/tocbot.css
+2020-04-16 18:05:45.725  WARN 13348 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:05:45.743  WARN 13348 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /images/wechat.png
+2020-04-16 18:05:58.388  WARN 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:10:43.226  INFO 13348 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:10:43.227  INFO 13348 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-04-16 18:10:43.233  INFO 13348 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-04-16 18:10:44.406  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 18:10:44.406  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 18:10:44.578  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 18:10:44.587  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+2020-04-16 18:10:44.720  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 18:10:44.721  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 18:10:44.721  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 18:10:44.734  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 18:10:44.734  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 326 ms
+2020-04-16 18:10:44.780  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 18:10:44.784  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-04-16 18:10:44.788  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-04-16 18:10:44.788  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 18:10:44.876  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 18:10:44.876  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:10:44.916  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 18:10:45.211  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 18:10:45.591  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 18:10:45.591  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.214 seconds (JVM running for 3573.001)
+2020-04-16 18:10:45.592  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-16 18:10:58.697  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 18:10:58.697  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 18:10:58.705  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-16 18:10:58.759  WARN 13348 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:11:01.475  WARN 13348 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:11:11.789  WARN 13348 --- [http-nio-8080-exec-5] o.s.web.servlet.PageNotFound             : No mapping for GET /admin/css.me.css
+2020-04-16 18:11:11.871  WARN 13348 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /css/typo.css
+2020-04-16 18:11:11.873  WARN 13348 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /css/animate.css
+2020-04-16 18:11:11.876  WARN 13348 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/prism/prism.css
+2020-04-16 18:11:11.877  WARN 13348 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : No mapping for GET /lib/tocbot/tocbot.css
+2020-04-16 18:11:11.877  WARN 13348 --- [http-nio-8080-exec-10] o.s.web.servlet.PageNotFound             : No mapping for GET /css/me.css
+2020-04-16 18:11:11.912  WARN 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.PageNotFound             : No mapping for GET /images/wechat.png
+2020-04-16 18:14:50.478  INFO 13348 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:14:50.479  INFO 13348 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-04-16 18:14:50.488  INFO 13348 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-04-16 18:14:51.623  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Starting BlogApplication on SD-20191214HSMU with PID 13348 (E:\IntellJ_Project\springboot_blog\target\classes started by Administrator in E:\IntellJ_Project\springboot_blog)
+2020-04-16 18:14:51.623  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : The following profiles are active: dev
+2020-04-16 18:14:51.753  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-16 18:14:51.760  INFO 13348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 1 JPA repository interfaces.
+2020-04-16 18:14:51.934  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-16 18:14:51.935  INFO 13348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-16 18:14:51.936  INFO 13348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 18:14:51.951  INFO 13348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-16 18:14:51.951  INFO 13348 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 326 ms
+2020-04-16 18:14:52.014  INFO 13348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-16 18:14:52.018  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2020-04-16 18:14:52.024  INFO 13348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2020-04-16 18:14:52.024  INFO 13348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-04-16 18:14:52.107  INFO 13348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-16 18:14:52.107  INFO 13348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-16 18:14:52.140  INFO 13348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-16 18:14:52.358  WARN 13348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-16 18:14:52.486  INFO 13348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 18:14:52.534  INFO 13348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-16 18:14:52.774  INFO 13348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-16 18:14:52.775  INFO 13348 --- [restartedMain] com.tencent.BlogApplication              : Started BlogApplication in 1.18 seconds (JVM running for 3820.185)
+2020-04-16 18:14:52.778  INFO 13348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#localeResolver:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.locale) did not find property 'locale' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-04-16 18:15:23.172  INFO 13348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 18:15:23.173  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-16 18:15:23.184  INFO 13348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
