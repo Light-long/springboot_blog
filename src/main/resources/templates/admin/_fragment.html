@@ -5,17 +5,18 @@
     <title>_fragment</title>
 </head>
 <body>
+<!--nav-->
     <nav th:fragment="adminNav(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
         <div class="ui container">
             <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">管理后台</h2>
-                <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>&nbsp;博客</a>
-                <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="mini idea icon"></i>&nbsp;分类</a>
-                <a href="#" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="mini tags icon"></i>&nbsp;标签</a>
+                <a href="#" th:href="@{/admin/blogs}" class="m-item item m-mobile-hide" th:classappend="${n==1} ? 'active'"><i class="mini home icon"></i>&nbsp;博客</a>
+                <a href="#" th:href="@{/admin/types}" class="m-item item m-mobile-hide" th:classappend="${n==2} ? 'active'"><i class="mini idea icon"></i>&nbsp;分类</a>
+                <a href="#" th:href="@{/admin/tags}" class="m-item item m-mobile-hide" th:classappend="${n==3} ? 'active'"><i class="mini tags icon"></i>&nbsp;标签</a>
                 <div class="right m-item m-mobile-hide menu">
                     <div class="ui dropdown  item">
                         <div class="text">
-                            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005">
+                            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1000">
                             李世龙
                         </div>
                         <i class="dropdown icon"></i>

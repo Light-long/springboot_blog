@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51720996-9d1d-4873-9a0f-b002f5ca6ed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/web/admin/BlogController.java" afterDir="false" />
+    <list default="true" id="51720996-9d1d-4873-9a0f-b002f5ca6ed2" name="Default Changelist" comment="my blog program">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/dao/TypeReposity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/web/admin/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tencent/entity/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tencent/entity/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tencent/interceptor/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tencent/interceptor/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,68 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/admin/TypeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="74" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="74" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="102" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
-              <folding>
-                <element signature="e#537#543#0" expanded="true" />
-                <element signature="e#678#684#0" expanded="true" />
-                <element signature="e#819#825#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="95" column="58" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/admin/BlogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/interceptor/LoginInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="1615">
+              <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +52,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+            <state relative-caret-position="380">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="93" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/TypeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,22 +91,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/impl/TypeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="912">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/admin/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+            <state relative-caret-position="285">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -147,12 +156,14 @@
       <find>wechat</find>
       <find>alipay</find>
       <find>2017-10-01</find>
+      <find>1005</find>
     </findStrings>
     <replaceStrings>
       <replace>2020</replace>
       <replace>https://unsplash.it/800/450?image=1000</replace>
       <replace>李世龙</replace>
       <replace>2020-04-11</replace>
+      <replace>1000</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -172,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/archives.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/tags.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/types.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/blog.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error/404.html" />
@@ -180,25 +190,33 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/error/error.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Usre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Blog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Comment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/dao/UserReporsity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/web/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/web/admin/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/web/admin/BlogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/type-input.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/web/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/dao/TypeReposity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/service/TypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/service/impl/TypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/web/admin/TypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/types.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html" />
       </list>
     </option>
   </component>
@@ -233,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,15 +310,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tencent" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tencent" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_blog" type="b2602c69:ProjectViewProjectNode" />
@@ -383,6 +391,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -396,7 +405,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_Boot/springboot_web/src/main/java/com/tx/springboot/controller/LoginController.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -466,7 +475,8 @@
       <updated>1586944021878</updated>
       <workItem from="1586944026026" duration="3580000" />
       <workItem from="1586950786148" duration="4422000" />
-      <workItem from="1587000170892" duration="29550000" />
+      <workItem from="1587000170892" duration="36988000" />
+      <workItem from="1587091724880" duration="9668000" />
     </task>
     <task id="LOCAL-00001" summary="my blog program">
       <created>1586945014804</created>
@@ -479,12 +489,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37552000" />
+    <option name="totallyTimeSpent" value="54658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25775978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -494,13 +505,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.63357663" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.055474453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36058393" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5781022" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -570,65 +581,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="my blog program" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar!/javassist/NotFoundException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/BlogNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/handler/ControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-pro.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/aspect/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -659,22 +611,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="25" column="118" selection-start-line="25" selection-start-column="118" selection-end-line="25" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/tags.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragments.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/lib/prism/prism.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/wechat.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/wechat.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -686,13 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="40" selection-start-line="40" selection-end-line="74" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -717,16 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,65 +745,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8968">
-          <caret line="36" column="74" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="278" column="11" selection-start-line="278" selection-start-column="8" selection-end-line="278" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
           <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="177" column="7" lean-forward="true" selection-start-line="167" selection-start-column="4" selection-end-line="177" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -941,18 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="102" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
-          <folding>
-            <element signature="e#537#543#0" expanded="true" />
-            <element signature="e#678#684#0" expanded="true" />
-            <element signature="e#819#825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -982,37 +842,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="58" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="58" />
+        <state relative-caret-position="304">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/types.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="3789">
+          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5282">
+          <caret line="278" column="11" selection-start-line="278" selection-start-column="8" selection-end-line="278" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lib/editormd/editormd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/entity/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="74" column="60" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="177" column="7" selection-start-line="167" selection-start-column="4" selection-end-line="177" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="74" />
+        <state relative-caret-position="58">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/interceptor/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/dao/TypeReposity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+        <state relative-caret-position="133">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/web/admin/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/TypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/service/impl/TypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/_fragment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/types.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/_fragment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
